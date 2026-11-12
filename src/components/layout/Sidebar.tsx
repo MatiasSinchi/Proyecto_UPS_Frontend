@@ -39,7 +39,7 @@ export function Sidebar({ open, onClose }: SidebarProps) {
       >
         <div className="flex h-16 items-center justify-between gap-2 border-b border-slate-100 px-5 dark:border-slate-800">
           <a href="https://www.ups.edu.ec/" className="rounded-lg bg-white px-2 py-1" title="Ir a www.ups.edu.ec">
-            <img src="/logo-ups.png" alt="Universidad Politécnica Salesiana" className="h-8 w-auto" width={107} height={32} />
+            <img src={`${import.meta.env.BASE_URL}logo-ups.png`} alt="Universidad Politécnica Salesiana" className="h-8 w-auto" width={107} height={32} />
           </a>
           <button onClick={onClose} className="rounded-lg p-2 text-slate-500 hover:bg-slate-100 lg:hidden dark:hover:bg-slate-800" aria-label="Cerrar menú">
             <X className="size-5" />
