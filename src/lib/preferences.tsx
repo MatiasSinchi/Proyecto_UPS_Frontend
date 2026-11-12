@@ -42,7 +42,7 @@ export function PreferencesProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     document.documentElement.classList.toggle('dark', theme === 'dark')
     try {
-      localStorage.setItem('ups:theme', theme)
+      localStorage.setItem('ups:theme-v2', theme)
     } catch {
       /* ignorado */
     }

@@ -2,8 +2,8 @@ import type { ClassSession, Installment, Notice, Student } from '../types'
 
 // Datos ficticios. En producción se obtienen de los servicios que hoy alimentan los portlets.
 export const student: Student = {
-  firstName: 'Andrea',
-  lastName: 'Morales Quito',
+  firstName: 'Matias',
+  lastName: 'Sinchi',
   id: '0105XXXXXX',
   career: 'Ingeniería en Computación',
   campus: 'Sede Cuenca',

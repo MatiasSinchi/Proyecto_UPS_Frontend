@@ -10,8 +10,8 @@
     <script>
       // Aplica el tema antes de pintar para evitar parpadeo
       try {
-        const t = localStorage.getItem('ups:theme')
-        const dark = t ? t === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches
+        const t = localStorage.getItem('ups:theme-v2')
+        const dark = t === 'dark' // claro por defecto
         document.documentElement.classList.toggle('dark', dark)
       } catch {}
     </script>
